@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -21,6 +21,60 @@
         <a href="./about.html">About</a>
       </nav>
     </header>
+    <div class="form-intro">
+      <h2>Sign Up</h2>
+      <p>
+        Sign up with an account to get started on your life changing journey!
+      </p>
+    </div>
+    <div class="form">
+      <form action="" method="get" class="sign-up">
+        <div class="form-row">
+          <label for="username">Username</label>
+          <input
+            id="username"
+            name="username"
+            type="text"
+            placeholder="Sally"
+          />
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="you@youremail.com"
+          />
+        </div>
+        <div class="form-row">
+          <label for="password">Password (10 characters minimum)</label>
+          <input
+            id="email"
+            name="email"
+            type="password"
+            minlength="10"
+            required
+          />
+        </div>
+
+        <div class="form-row">
+          <legend>iPhone or Android?</legend>
+          <input
+            id="iphone"
+            name="phone-type"
+            type="radio"
+            value="iphone"
+            checked
+          />
+          <label for="iphone" class="radio-label">iPhone</label>
+          <input id="android" name="phone-type" type="radio" value="android" />
+          <label for="android" class="radio-label">Android</label>
+        </div>
+      </form>
+    </div>
+    <button>Sign Up!</button>
     <footer></footer>
   </body>
 </html>
