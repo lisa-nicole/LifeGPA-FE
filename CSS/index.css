@@ -1,3 +1,13 @@
+body {
+  font-family: 'Libre Baskerville', serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Oxygen', sans-serif;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -135,6 +145,7 @@ html {
 html,
 body {
   font-family: 'Libre Baskerville', serif;
+  background: #FAEBD7;
 }
 h1,
 h2,
@@ -167,7 +178,6 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
-  background: #fefdeb;
 }
 .account {
   display: flex;
