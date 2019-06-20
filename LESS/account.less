@@ -5,25 +5,44 @@
   .form-wrap {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+
     .form-intro {
+      margin-top: 15px;
       h2 {
-      }
-      p {
-      }
-      a {
+        margin: 5px 0;
       }
     } //form-intro
     .form {
-      form {
-      }
+      border-bottom: 1px solid @dark-lav;
+      padding: 10px 0;
+
       .form-row {
+        font-size: 1.6rem;
+        padding-bottom: 10px;
         label {
         }
+        .radio-label {
+          font-family: 'Oxygen', sans-serif;
+          font-size: 1.5rem;
+        }
+        legend {
+          font-size: 1.6rem;
+          padding-bottom: 10px;
+        }
         input {
-          .radio-label {
-          }
+          border-radius: 5px;
+          border: 1px solid @dark-lav;
+          background-color: @cream;
+          padding: 0.5rem;
+        }
+        #iphone,
+        #android {
+          height: 15px;
+          width: 15px;
+
+          border-radius: 50%;
         }
         a {
         }
