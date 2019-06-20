@@ -135,6 +135,7 @@ html {
 html,
 body {
   font-family: 'Libre Baskerville', serif;
+  background: #FAEBD7;
 }
 h1,
 h2,
@@ -167,7 +168,6 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
-  background: #fefdeb;
 }
 .account {
   display: flex;
