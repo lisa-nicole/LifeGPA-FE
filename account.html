@@ -12,8 +12,9 @@
     />
   </head>
   <body>
-    <div class="container log-in">
+    <div class="container account">
       <header>
+            <h1 class="logo-heading">LifeGPA</h1>
         <nav>
           <a href="./index.html">Home</a>
           <a href="./product.html">Product</a>
@@ -22,12 +23,13 @@
         </nav>
       </header>
 
-      <div class="form-intro">
+      <div class="form-wrap">
+      <section class="form-intro">
         <h2><a name="login"></a>Log In</h2>
         <p>Don't have an account? <a href="#signup">Sign Up</a></p>
-      </div>
+      </section>
 
-      <div class="form">
+      <section class="form">
         <form action="" method="get" class="log-in-form">
           <div class="form-row">
             <label for="email">Email</label>
@@ -52,17 +54,17 @@
             <a href="#">Forgot your password?</a>
           </div>
         </form>
-      </div>
+      </section>
       <button>Log In!</button>
     
-    <div class="form-intro">
+    <section class="form-intro">
             <h2><a name="signup"></a>Sign Up</h2>
             <p>
               Sign up with an account to get started on your life changing journey!
             </p>
             <p>Already have an account? <a href="#login">Log In</a></p>
-          </div>
-          <div class="form">
+    </section>
+          <section class="form">
             <form action="" method="get" class="sign-up-form">
               <div class="form-row">
                 <label for="username">Username</label>
@@ -72,9 +74,9 @@
                   type="text"
                   placeholder="Sally"
                 />
-              </div>
+             </div>
     
-              <div class="form-row">
+               <div class="form-row">
                 <label for="email">Email</label>
                 <input
                   id="email"
@@ -82,8 +84,8 @@
                   type="email"
                   placeholder="you@youremail.com"
                 />
-              </div>
-              <div class="form-row">
+               </div>
+                <div class="form-row">
                 <label for="password">Password (10 characters minimum)</label>
                 <input
                   id="email"
@@ -92,9 +94,9 @@
                   minlength="10"
                   required
                 />
-              </div>
+               </div>
     
-              <div class="form-row">
+               <div class="form-row">
                 <legend>iPhone or Android?</legend>
                 <input
                   id="iphone"
@@ -114,7 +116,8 @@
               </div>
             </form>
             <button>Sign Up!</button>
-          </div>
+          </section>
+          </div><!-- form wrap end -->
           
     <footer></footer>
   </body>
