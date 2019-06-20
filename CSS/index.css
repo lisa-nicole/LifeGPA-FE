@@ -145,7 +145,7 @@ html {
 html,
 body {
   font-family: 'Libre Baskerville', serif;
-  background: #FAEBD7;
+  background: #faebd7;
 }
 h1,
 h2,
@@ -170,6 +170,10 @@ p {
   font-size: 1.6rem;
   padding-bottom: 10px;
 }
+a {
+  text-decoration: none;
+  color: #568454;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -186,8 +190,42 @@ img {
 .account .form-wrap {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
+}
+.account .form-wrap .form-intro {
+  margin-top: 15px;
+}
+.account .form-wrap .form-intro h2 {
+  margin: 5px 0;
+}
+.account .form-wrap .form {
+  border-bottom: 1px solid #d9d2ee;
+  padding: 10px 0;
+}
+.account .form-wrap .form .form-row {
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+.account .form-wrap .form .form-row .radio-label {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.5rem;
+}
+.account .form-wrap .form .form-row legend {
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+.account .form-wrap .form .form-row input {
+  border-radius: 5px;
+  border: 1px solid #d9d2ee;
+  background-color: #fefdeb;
+  padding: 0.5rem;
+}
+.account .form-wrap .form .form-row #iphone,
+.account .form-wrap .form .form-row #android {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
 }
 .account .form-wrap button {
   width: 30%;
