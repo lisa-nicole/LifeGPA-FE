@@ -230,3 +230,15 @@ img {
 .account .form-wrap button {
   width: 30%;
 }
+.product {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.product .product-detail .inspiration-img {
+  width: 80%;
+  border-radius: 5px;
+}
+.product .product-detail .product-img {
+  height: 500px;
+}
