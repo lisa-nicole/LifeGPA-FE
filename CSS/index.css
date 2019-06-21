@@ -225,6 +225,7 @@ img {
 @media (max-width: 500px) {
   .account .form-wrap .signup {
     width: 100%;
+    margin-top: 15px;
   }
 }
 .account .form-wrap .form-intro h2 {
