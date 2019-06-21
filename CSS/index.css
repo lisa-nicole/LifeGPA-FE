@@ -183,18 +183,49 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
+}
 .account {
   display: flex;
   flex-direction: column;
 }
-.account .form-wrap {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin: 0 auto;
+.account .show-hide {
+  display: none;
 }
-.account .form-wrap .form-intro {
+@media (max-width: 500px) {
+  .account .show-hide {
+    display: inline;
+  }
+}
+.account .form-wrap {
   margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .account .form-wrap {
+    flex-direction: column;
+  }
+}
+.account .form-wrap .login {
+  width: 40%;
+}
+@media (max-width: 500px) {
+  .account .form-wrap .login {
+    width: 100%;
+  }
+}
+.account .form-wrap .signup {
+  width: 50%;
+}
+@media (max-width: 500px) {
+  .account .form-wrap .signup {
+    width: 100%;
+  }
 }
 .account .form-wrap .form-intro h2 {
   margin: 5px 0;
@@ -243,12 +274,6 @@ img {
 .product {
   display: flex;
   flex-direction: column;
-  width: 100%;
-}
-@media (max-width: 500px) {
-  .product {
-    width: 90%;
-  }
 }
 .product h2 {
   margin: 5px 0;

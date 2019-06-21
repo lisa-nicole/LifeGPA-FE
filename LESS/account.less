@@ -2,14 +2,40 @@
   display: flex;
   flex-direction: column;
 
+  //hides internal links to log in/sign up
+  .show-hide {
+    display: none;
+    //displays links in mobile
+    @media @mobile {
+      display: inline;
+    }
+  } //show-hide
+
   .form-wrap {
+    margin-top: 15px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
-    margin: 0 auto;
+
+    @media @mobile {
+      flex-direction: column;
+    }
+
+    .login {
+      width: 40%;
+      @media @mobile {
+        width: 100%;
+      }
+    }
+
+    .signup {
+      width: 50%;
+      @media @mobile {
+        width: 100%;
+      }
+    }
 
     .form-intro {
-      margin-top: 15px;
       h2 {
         margin: 5px 0;
       }
