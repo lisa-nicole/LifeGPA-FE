@@ -235,10 +235,20 @@ img {
   font-weight: bold;
   font-size: 1.5rem;
 }
+@media (max-width: 500px) {
+  .account .form-wrap button {
+    width: 30%;
+  }
+}
 .product {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+@media (max-width: 500px) {
+  .product {
+    width: 90%;
+  }
 }
 .product h2 {
   margin: 5px 0;
@@ -252,6 +262,11 @@ img {
   font-weight: bold;
   font-size: 1.5rem;
 }
+@media (max-width: 500px) {
+  .product button {
+    width: 30%;
+  }
+}
 .product .product-intro {
   margin-top: 15px;
 }
@@ -262,15 +277,25 @@ img {
 }
 .product .product-detail p {
   border-top: 1px solid #d9d2ee;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 .product .product-detail .inspiration-img {
   width: 80%;
   border-radius: 5px;
-  padding: 0 0 10px;
+  padding: 0 0 20px;
+}
+@media (max-width: 500px) {
+  .product .product-detail .inspiration-img {
+    width: 100%;
+  }
 }
 .product .product-detail .product-img {
   max-height: 500px;
+}
+@media (max-width: 500px) {
+  .product .product-detail .product-img {
+    max-height: 400px;
+  }
 }
 .product .product-detail .product-bottom {
   width: 80%;
@@ -278,10 +303,18 @@ img {
   justify-content: space-between;
   margin-bottom: 15px;
 }
+@media (max-width: 500px) {
+  .product .product-detail .product-bottom {
+    width: 100%;
+  }
+}
 .product .product-detail .product-bottom div {
   padding: 10px;
+  margin-left: 5%;
 }
 .product .product-detail .product-bottom li {
   list-style-type: circle;
   font-size: 2rem;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
 }

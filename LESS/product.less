@@ -2,7 +2,9 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-
+  @media @mobile {
+    width: 90%;
+  }
   h2 {
     margin: 5px 0;
   }
@@ -20,17 +22,22 @@
 
     p {
       border-top: 1px solid @dark-lav;
-      padding: 10px 0;
+      padding: 20px 0;
     }
 
     .inspiration-img {
       width: 80%;
       border-radius: 5px;
-      padding: 0 0 10px;
+      padding: 0 0 20px;
+      @media @mobile {
+        width: 100%;
+      }
     }
     .product-img {
       max-height: 500px;
-      //width: 30%;
+      @media @mobile {
+        max-height: 400px;
+      }
     }
 
     .product-bottom {
@@ -38,13 +45,19 @@
       display: flex;
       justify-content: space-between;
       margin-bottom: 15px;
+      @media @mobile {
+        width: 100%;
+      }
       div {
         padding: 10px;
+        margin-left: 5%;
       }
 
       li {
         list-style-type: circle;
         font-size: 2rem;
+        line-height: 2.5rem;
+        margin-bottom: 1rem;
       }
     }
   }
