@@ -258,6 +258,15 @@ img {
 .product h2 {
   margin: 5px 0;
 }
+.product button {
+  width: 20%;
+  border: 1px solid #568454;
+  border-radius: 5px;
+  background-color: #abd5aa;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
 .product .product-intro {
   margin-top: 15px;
 }
@@ -282,6 +291,7 @@ img {
   width: 80%;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 15px;
 }
 .product .product-detail .product-bottom div {
   padding: 10px;
