@@ -273,9 +273,19 @@ img {
     width: 30%;
   }
 }
-.container-index {
-  display: flow-root;
+.footer-content h3 {
+  padding: 20px;
+  margin: 20px 0;
+}
+.welcome {
   padding-top: 100px;
+}
+.welcome .top-image {
+  text-align: center;
+}
+.welcome .top-image img {
+  width: 80%;
+  border-radius: 20px;
 }
 .header .main-navigation {
   display: flex;
