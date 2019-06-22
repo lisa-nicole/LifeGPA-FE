@@ -287,6 +287,16 @@ footer .footer-content {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 500px) {
+  footer .footer-content {
+    width: 80%;
+  }
+}
+@media (max-width: 800px) {
+  footer .footer-content {
+    width: 80%;
+  }
+}
 footer .footer-content nav {
   display: flex;
   flex-direction: row;
