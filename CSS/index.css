@@ -192,6 +192,7 @@ img {
 .account {
   display: flex;
   flex-direction: column;
+  padding-top: 100px;
 }
 .account .show-hide {
   display: none;
@@ -273,11 +274,13 @@ img {
     width: 30%;
   }
 }
+
 .footer-content h3 {
   padding: 20px;
   margin: 20px 0;
 }
 .welcome {
+
   padding-top: 100px;
 }
 .welcome .top-image {
@@ -318,6 +321,7 @@ img {
 .product {
   display: flex;
   flex-direction: column;
+  padding-top: 100px;
 }
 .product h2 {
   margin: 5px 0;
