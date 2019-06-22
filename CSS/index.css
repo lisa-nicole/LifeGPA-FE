@@ -273,7 +273,11 @@ img {
     width: 30%;
   }
 }
-.header {
+.container-index {
+  display: flow-root;
+  padding-top: 100px;
+}
+.header .main-navigation {
   display: flex;
 }
 .main-navigation {
