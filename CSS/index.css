@@ -274,6 +274,7 @@ img {
     width: 30%;
   }
 }
+<<<<<<< HEAD
 footer {
   display: flex;
   flex-direction: column;
@@ -304,7 +305,21 @@ footer .copyright {
 }
 .container-index {
   display: flow-root;
+=======
+.footer-content h3 {
+  padding: 20px;
+  margin: 20px 0;
+}
+.welcome {
+>>>>>>> 4577896866978b6cb476df4e2404500fce42e9e4
   padding-top: 100px;
+}
+.welcome .top-image {
+  text-align: center;
+}
+.welcome .top-image img {
+  width: 80%;
+  border-radius: 20px;
 }
 .header .main-navigation {
   display: flex;
