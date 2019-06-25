@@ -274,6 +274,11 @@ img {
     width: 30%;
   }
 }
+.account .form-wrap button a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+}
 footer {
   display: flex;
   flex-direction: column;
@@ -450,6 +455,11 @@ footer .copyright {
   .product button {
     width: 30%;
   }
+}
+.product button a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
 }
 .product .product-intro {
   margin-top: 15px;
