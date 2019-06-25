@@ -403,7 +403,7 @@ footer .copyright {
   }
 }
 .container-nav .nav {
-  margin: 18pxx 0 0;
+  margin: 18px 0 0;
   padding: 20px 20px 20px 0;
   display: flex;
   justify-content: space-evenly;
@@ -483,4 +483,18 @@ footer .copyright {
   font-size: 2rem;
   line-height: 2.5rem;
   margin-bottom: 1rem;
+}
+.about .about-us {
+  padding: 100px 0 10px;
+}
+.about .top-image {
+  text-align: center;
+}
+.about .top-image img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+}
+.about .top-image h2 {
+  margin-top: 20px;
 }
