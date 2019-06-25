@@ -1,3 +1,4 @@
+
 .header .main-navigation {
   display: flex;
 }
@@ -24,8 +25,27 @@
     margin: 18pxx 0 0;
     padding: 20px 20px 20px 0;
     display: flex;
-    justify-content: space-evenly;
-  }
+    align-items: center;
+    justify-content: space-around;
+
+    @media @mobile {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    .logo-heading {
+        @media @mobile {
+            font-size: 3rem;
+        }   
+    }
+
+    .nav {
+        margin: 18pxx 0 0;
+        padding: 20px 20px 20px 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
 
   .nav-link {
     padding: inherit;
