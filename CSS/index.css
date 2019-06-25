@@ -418,8 +418,16 @@ footer .copyright {
   display: flex;
   justify-content: space-evenly;
 }
+@media (max-width: 500px) {
+  .container-nav .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+  }
+}
 .container-nav .nav-link {
-  padding: inherit;
+  padding: 10px;
 }
 .product {
   display: flex;
