@@ -194,6 +194,9 @@ img {
   flex-direction: column;
   padding-top: 100px;
 }
+.account .account-img {
+  border-radius: 20px;
+}
 .account .show-hide {
   display: none;
 }
