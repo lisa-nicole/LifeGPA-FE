@@ -282,6 +282,11 @@ img {
   text-decoration: none;
   color: black;
 }
+.account .form-wrap button:hover {
+  border: 1px solid #d9d2ee;
+  background-color: #ece8f7;
+  font-style: italic;
+}
 footer {
   display: flex;
   flex-direction: column;
@@ -463,6 +468,11 @@ footer .copyright {
   font-size: 1.5rem;
   text-decoration: none;
   color: black;
+}
+.product button:hover {
+  border: 1px solid #d9d2ee;
+  background-color: #ece8f7;
+  font-style: italic;
 }
 .product .product-intro {
   margin-top: 15px;
