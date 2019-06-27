@@ -194,6 +194,11 @@ img {
   flex-direction: column;
   padding-top: 100px;
 }
+@media (max-width: 800px) {
+  .account {
+    width: 90%;
+  }
+}
 .account .account-img {
   border-radius: 20px;
 }
@@ -275,6 +280,11 @@ img {
 @media (max-width: 500px) {
   .account .form-wrap button {
     width: 30%;
+  }
+}
+@media (max-width: 800px) {
+  .account .form-wrap button {
+    width: 50%;
   }
 }
 .account .form-wrap button a {
@@ -409,6 +419,11 @@ footer .copyright {
   border-bottom: 2px dashed #abd5aa;
   position: fixed;
 }
+@media (max-width: 500px) {
+  .main-navigation {
+    border-bottom: none;
+  }
+}
 .container-nav {
   height: 100%;
   display: flex;
@@ -425,6 +440,7 @@ footer .copyright {
 @media (max-width: 500px) {
   .container-nav .logo-heading {
     font-size: 3rem;
+    border-bottom: none;
   }
 }
 .container-nav .nav {
@@ -449,6 +465,11 @@ footer .copyright {
   flex-direction: column;
   padding-top: 100px;
 }
+@media (max-width: 800px) {
+  .product {
+    width: 90%;
+  }
+}
 .product h2 {
   margin: 5px 0;
 }
@@ -464,6 +485,11 @@ footer .copyright {
 @media (max-width: 500px) {
   .product button {
     width: 30%;
+  }
+}
+@media (max-width: 800px) {
+  .product button {
+    width: 50%;
   }
 }
 .product button a {
