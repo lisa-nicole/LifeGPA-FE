@@ -440,6 +440,7 @@ footer .copyright {
 @media (max-width: 500px) {
   .container-nav .logo-heading {
     font-size: 3rem;
+    border-bottom: none;
   }
 }
 .container-nav .nav {
