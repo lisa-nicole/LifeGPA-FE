@@ -336,7 +336,7 @@ footer .copyright {
   font-weight: 600;
 }
 .home .welcome {
-  padding: 100px 0 10px;
+  padding: 20px 0 10px;
 }
 .home .welcome h2 {
   margin-top: 20px;
@@ -422,6 +422,7 @@ footer .copyright {
 @media (max-width: 500px) {
   .main-navigation {
     border-bottom: none;
+    display: none;
   }
 }
 .container-nav {
@@ -432,9 +433,7 @@ footer .copyright {
 }
 @media (max-width: 500px) {
   .container-nav {
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 10px;
+    display: none;
   }
 }
 @media (max-width: 500px) {
@@ -451,10 +450,7 @@ footer .copyright {
 }
 @media (max-width: 500px) {
   .container-nav .nav {
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0;
-    padding: 10px;
+    display: none;
   }
 }
 .container-nav .nav-link {
@@ -665,6 +661,20 @@ footer .copyright {
 .tabs .tabs-link-selected:hover {
   background-color: #ece8f7;
 }
+
+.menu-button {
+  position: absolute;
+  left: 20px;
+  cursor: pointer;
+}
+@media (min-width: 1000px) {
+  .menu-button {
+    display: none;
+  }
+}
+.mobile-heading {
+  text-align: center;
+
 .btn-click {
   /* Start the shake animation and make the animation last for 0.5 seconds */
   animation: shake 0.5s;
@@ -688,4 +698,5 @@ footer .copyright {
   60% {
     transform: translate3d(4px, 0, 0);
   }
+
 }
