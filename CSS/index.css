@@ -194,6 +194,11 @@ img {
   flex-direction: column;
   padding-top: 100px;
 }
+@media (max-width: 800px) {
+  .account {
+    width: 90%;
+  }
+}
 .account .account-img {
   border-radius: 20px;
 }
@@ -275,6 +280,11 @@ img {
 @media (max-width: 500px) {
   .account .form-wrap button {
     width: 30%;
+  }
+}
+@media (max-width: 800px) {
+  .account .form-wrap button {
+    width: 50%;
   }
 }
 .account .form-wrap button a {
@@ -449,6 +459,11 @@ footer .copyright {
   flex-direction: column;
   padding-top: 100px;
 }
+@media (max-width: 800px) {
+  .product {
+    width: 90%;
+  }
+}
 .product h2 {
   margin: 5px 0;
 }
@@ -464,6 +479,11 @@ footer .copyright {
 @media (max-width: 500px) {
   .product button {
     width: 30%;
+  }
+}
+@media (max-width: 800px) {
+  .product button {
+    width: 50%;
   }
 }
 .product button a {
