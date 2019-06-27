@@ -419,6 +419,11 @@ footer .copyright {
   border-bottom: 2px dashed #abd5aa;
   position: fixed;
 }
+@media (max-width: 500px) {
+  .main-navigation {
+    border-bottom: none;
+  }
+}
 .container-nav {
   height: 100%;
   display: flex;
@@ -435,6 +440,7 @@ footer .copyright {
 @media (max-width: 500px) {
   .container-nav .logo-heading {
     font-size: 3rem;
+    border-bottom: none;
   }
 }
 .container-nav .nav {

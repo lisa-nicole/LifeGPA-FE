@@ -9,6 +9,10 @@
     background: @antique-white;
     border-bottom: 2px dashed @light-grn;
     position: fixed;
+
+    @media @mobile {
+        border-bottom: none;
+    }
 }
 
 .container-nav {
@@ -26,6 +30,7 @@
     .logo-heading {
         @media @mobile {
             font-size: 3rem;
+            border-bottom: none;
         }   
     }
 
