@@ -433,7 +433,9 @@ footer .copyright {
 }
 @media (max-width: 500px) {
   .container-nav {
-    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
   }
 }
 @media (max-width: 500px) {
@@ -450,7 +452,10 @@ footer .copyright {
 }
 @media (max-width: 500px) {
   .container-nav .nav {
-    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
   }
 }
 .container-nav .nav-link {
@@ -546,7 +551,7 @@ footer .copyright {
   }
 }
 .about .about-us {
-  padding: 100px 0 10px;
+  padding: 20px 0 10px;
 }
 .about .about-us h2 {
   margin-top: 20px;
@@ -661,7 +666,6 @@ footer .copyright {
 .tabs .tabs-link-selected:hover {
   background-color: #ece8f7;
 }
-
 .menu-button {
   position: absolute;
   left: 20px;
@@ -674,7 +678,39 @@ footer .copyright {
 }
 .mobile-heading {
   text-align: center;
-
+}
+@media (min-width: 1000px) {
+  .mobile-heading {
+    display: none;
+  }
+}
+.menu {
+  display: none;
+  top: 75px;
+  left: 0;
+  width: 436px;
+  height: 125vh;
+  /* This give the height 100% of the screen or, '100% of View Height' */
+  color: #abd5aa;
+  background-color: #faebd7;
+  border-left: none;
+  border-bottom: none;
+  z-index: 2;
+  /* This set the layer level of the element, it has precendence over initial level of 1*/
+}
+.menu ul li {
+  list-style-type: none;
+  font-size: 32px;
+  padding: 30px 0;
+  text-align: center;
+  border: 1px solid #abd5aa;
+}
+.mobile-nav {
+  font-size: 30px;
+}
+.menu--open {
+  display: block;
+}
 .btn-click {
   /* Start the shake animation and make the animation last for 0.5 seconds */
   animation: shake 0.5s;
@@ -698,5 +734,4 @@ footer .copyright {
   60% {
     transform: translate3d(4px, 0, 0);
   }
-
 }

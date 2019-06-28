@@ -17,17 +17,32 @@
     <script src="./components/buttons/buttons.js" async></script>
   </head>
   <body>
-    <header class="main-navigation">
-      <div class="container-nav">
-        <h1 class="logo-heading">LifeGPA</h1>
-        <nav class="nav">
-          <a class="nav-link" href="./index.html">Home</a>
-          <a class="nav-link" href="./product.html">Product</a>
-          <a class="nav-link" href="./account.html">Account</a>
-          <a class="nav-link" href="./about.html">About</a>
-        </nav>
-      </div>
-    </header>
+   <!-- Desktop Nav -->
+  <header class="main-navigation">
+    <div class="container-nav">
+      <h1 class="logo-heading">LifeGPA</h1>
+      <nav class="nav">
+        <a class="nav-link" href="./index.html">Home</a>
+        <a class="nav-link" href="./product.html">Product</a>
+        <a class="nav-link" href="./account.html">Account</a>
+        <a class="nav-link" href="./about.html">About</a>
+      </nav>
+    </div>
+  </header>
+    
+    <!-- Mobile Navbar -->
+  <div class="mobile-menu">
+    <img class="menu-button" src="img/menu.png"/>
+    <h1 class="mobile-heading">LifeGPA</h1>
+  </div>
+  <div class="menu">
+    <ul>
+      <li><a class="mobile-nav" href="./index.html">Home</a></li>
+      <li><a class="mobile-nav" href="./product.html">Product</a></li>
+      <li><a class="mobile-nav" href="./account.html">Account</a></li>
+      <li><a class="mobile-nav" href="./about.html">About</a></li>
+    </ul>
+  </div>
 
     <div class="container account">
       <img
@@ -158,5 +173,6 @@
       </div>
       <p class="copyright">&copy; lisa-nicole/LifeGPA-FE 2019</p>
     </footer>
+    <script src="./components/menu/menu.js" asyc></script>
   </body>
 </html>
