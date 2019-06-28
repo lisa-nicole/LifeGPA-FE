@@ -686,6 +686,7 @@ footer .copyright {
 }
 .menu {
   display: none;
+  position: fixed;
   top: 75px;
   left: 0;
   width: 436px;
