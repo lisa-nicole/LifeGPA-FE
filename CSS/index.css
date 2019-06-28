@@ -194,6 +194,11 @@ img {
   flex-direction: column;
   padding-top: 100px;
 }
+@media (max-width: 500px) {
+  .account {
+    padding-top: 40px;
+  }
+}
 @media (max-width: 800px) {
   .account {
     width: 90%;
@@ -465,6 +470,11 @@ footer .copyright {
   display: flex;
   flex-direction: column;
   padding-top: 100px;
+}
+@media (max-width: 500px) {
+  .product {
+    padding-top: 40px;
+  }
 }
 @media (max-width: 800px) {
   .product {
