@@ -1,9 +1,9 @@
+
 .menu-button {
     position: absolute;
     left: 20px;
     cursor: pointer;
-    // background-color: @dark-lav;
-
+   
     @media @desktop {
         display: none;
     }
@@ -19,17 +19,39 @@
 
 .menu {
     display: none;
-    position: fixed;
-    top: 75px;
-    left: 0;
-    width: 436px;
-    height: 125vh; /* This give the height 100% of the screen or, '100% of View Height' */
-    color: @light-grn;
-    background-color: @antique-white;
-    //border: 1px solid @dark-grn;
-    border-left: none;
-    border-bottom: none;
-    z-index: 2; /* This set the layer level of the element, it has precendence over initial level of 1*/
+    position: unset;
+   
+    @media (min-width: 800px) {
+        display: none;
+        position: unset;
+        top: 75px;
+        left: 0;
+        width: 800px;
+        height: 77vh; 
+        color: @light-grn;
+        box-shadow: 3px 3px 8px @mint-green;
+        background-color: @antique-white;
+        
+        border-left: none;
+        border-bottom: none;
+        z-index: 2;
+    }
+
+    @media @mobile {
+        display: none;
+        position: unset;
+        top: 75px;
+        left: 0;
+        width: 481px;
+        height: 77vh; 
+        color: @light-grn;
+        box-shadow: 3px 3px 8px @mint-green;
+        background-color: @antique-white;
+        
+        border-left: none;
+        border-bottom: none;
+        z-index: 2;
+    }
 }
 
 .menu ul li{
@@ -38,6 +60,8 @@
     padding: 30px 0;
     text-align: center;
     border:  1px solid @light-grn;
+    box-shadow: 3px 3px 8px #c2d8c1;
+    border-radius: 10px; 
   }
 
   .mobile-nav {
