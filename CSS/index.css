@@ -333,8 +333,18 @@ footer .footer-content nav {
 footer .footer-content nav h3 {
   font-size: 2.2rem;
 }
+@media (max-width: 500px) {
+  footer .footer-content nav h3 {
+    font-size: 2rem;
+  }
+}
 footer .footer-content nav .nav-link {
   font-size: 1.8rem;
+}
+@media (max-width: 500px) {
+  footer .footer-content nav .nav-link {
+    font-size: 1.6rem;
+  }
 }
 footer .copyright {
   padding: 10px 0;
