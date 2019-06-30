@@ -7,6 +7,10 @@
     @media @desktop {
         display: none;
     }
+
+    @media (min-width: 800px) {
+        display: none;
+    }
 }
 
 .mobile-heading {
@@ -14,6 +18,15 @@
 
    @media @desktop {
     display: none;
+    }
+
+    @media @tablet {
+        text-align: center;
+        margin: 3rem
+    }
+
+    @media @mobile {
+        text-align: center;
     }
 }
 
@@ -27,7 +40,7 @@
         top: 75px;
         left: 0;
         width: 800px;
-        height: 77vh; 
+        // height: 77vh; 
         color: @light-grn;
         box-shadow: 3px 3px 8px @mint-green;
         background-color: @antique-white;
@@ -37,21 +50,21 @@
         z-index: 2;
     }
 
-    @media @mobile {
-        display: none;
-        position: unset;
-        top: 75px;
-        left: 0;
-        width: 481px;
-        height: 77vh; 
-        color: @light-grn;
-        box-shadow: 3px 3px 8px @mint-green;
-        background-color: @antique-white;
+    // @media @mobile {
+    //     display: none;
+    //     position: unset;
+    //     top: 75px;
+    //     left: 0;
+    //     width: 481px;
+    //     // height: 77vh; 
+    //     color: @light-grn;
+    //     box-shadow: 3px 3px 8px @mint-green;
+    //     background-color: @antique-white;
         
-        border-left: none;
-        border-bottom: none;
-        z-index: 2;
-    }
+    //     border-left: none;
+    //     border-bottom: none;
+    //     z-index: 2;
+    // }
 }
 
 .menu ul li{
@@ -60,8 +73,26 @@
     padding: 30px 0;
     text-align: center;
     border:  1px solid @light-grn;
-    box-shadow: 3px 3px 8px #c2d8c1;
+    box-shadow: 3px 3px 8px @mint-green;
     border-radius: 10px; 
+
+    // @media @tablet {
+    //     font-size: 32px;
+    //     padding: 30px 0;
+    //     text-align: center;
+    //     border:  1px solid @light-grn;
+    //     box-shadow: 3px 3px 8px @mint-green;
+    //     border-radius: 10px; 
+    // }
+
+    // @media @mobile {
+    //     font-size: 32px;
+    //     padding: 30px 0;
+    //     text-align: center;
+    //     border:  1px solid @light-grn;
+    //     box-shadow: 3px 3px 8px @mint-green;
+    //     border-radius: 10px; 
+    // }
   }
 
   .mobile-nav {
